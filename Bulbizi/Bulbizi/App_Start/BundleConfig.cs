@@ -21,11 +21,25 @@ namespace Bulbizi
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/bootstrap.min.js",
+                      "~/Scripts/tether.js",
+                      "~/Scripts/tether.min.js" ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/bootstrap.css", 
+                      "~/Content/4-col-portfolio.css",
+                      "~/Content/bootstrap-grid.css",
+                      "~/Content/bootstrap-grid.min.css",
+                      "~/Content/bootstrap-reboot.css",
+                      "~/Content/bootstrap-reboot.min.css"  
+                      
+                       ));
+
+            bundles.Add(new StyleBundle("~/Content/topcss").Include(
+                    "~/Content/bootstrap.css",
+                    "~/Content/bootstrap.min.css", 
+                    "~/Content/Site.css"
+                     ));
         }
     }
 }

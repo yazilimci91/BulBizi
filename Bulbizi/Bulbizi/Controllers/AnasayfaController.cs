@@ -22,5 +22,11 @@ namespace Bulbizi.Controllers
             return View();
         }
 
+        public ActionResult Icerik()
+        {
+
+            return View();
+        }
+
 	}
 }

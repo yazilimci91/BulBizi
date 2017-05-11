@@ -20,8 +20,8 @@ namespace Bulbizi
                         "~/Scripts/modernizr-*"));
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
-                "~/Scripts/jquery.js",      
-                "~/Scripts/bootstrap.js",
+                            
+                        "~/Scripts/bootstrap.js",
                       "~/Scripts/bootstrap.min.js",
                       "~/Scripts/tether.js",
                       "~/Scripts/tether.min.js" ));
